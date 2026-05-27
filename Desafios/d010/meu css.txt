@@ -1,0 +1,145 @@
+<style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        @font-face {
+            font-family:'idroid' ;
+            src: url(fontes/idroid.otf);
+        }
+        body{
+            background-color: rgb(198, 245, 218);
+            margin: 0;
+        }
+        header{
+            background:linear-gradient(#00EC20,#00CA1B,#008612,#00640D);
+            width: 100%;
+            margin: 0;
+            padding: 2px;
+        }
+        header > h1{
+            font-family: "Bebas Neue", sans-serif;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+        }
+        header > h2{
+            font-family: 'Roboto';
+            color: white;
+            text-align: center;
+            font-weight: bold;
+        }
+        nav{
+            background-color: #00640D;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            width: 100%;
+            margin: 0;
+            padding: 2px;
+        }
+        nav > a {
+            margin: 20px;
+            color: white;
+            text-decoration: none;
+        }
+        nav > a:hover{
+            background-color: green;
+            border-radius: 5px;
+        }
+
+        main{
+            background-color: white;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+            
+        }
+        .idroid{
+            font-family: 'idroid', serif;
+            color: #055f11;
+            font-size:25px ;
+            text-indent: 10px
+        }
+        .idroid1{
+            background-color: #00ec1f15;
+            font-family:'idroid', serif ;
+            color: #055f11;
+            text-indent: 12px;
+        }
+         p{
+            text-align: justify;
+            font-family: 'Roboto';
+            text-align: left;
+            text-indent: 30px
+            
+        }
+        p > a{
+            text-align: justify;
+            color: #048a16;
+            text-decoration: solid;
+            font-weight: bolder;
+            
+        }
+        p > a:hover{
+            background-color:#048a162d ;
+        }
+        picture{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        span{
+            color: #058a17;
+            font-weight: bolder;
+        }
+        .container-vide{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #00640D;
+            width: 100%;
+            height: 100%;
+            position: relative;
+            border-radius: 5px;
+        }
+        .list > h2{
+            background-color: #2fa866;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .lista{
+            display: flex;
+            justify-content:space-around;
+            font-weight: bolder;
+        }
+        .list{
+            background-color: #c5ebd6;
+            margin: auto;
+            padding: auto;
+            border-radius: 10px;
+            
+        }
+        .list > p{
+            text-align: justify;
+            font-family: 'Roboto';
+            margin: 10px;
+            padding: 1px;
+            text-align: left;
+            text-indent: 30px
+        }
+        ul{
+            list-style-type: '✔ ';
+            margin-right: 8px;
+        }
+        footer{
+            background-color: #118521;
+            margin: auto;
+            padding: 5px;
+            text-align: center;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+
+    </style>

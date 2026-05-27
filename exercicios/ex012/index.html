@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Videos com HTML5</title>
+</head>
+
+<body>
+    <h1>Inserindo video hospedado localmente</h1>
+    <p>Este video esta hospedado no meu próprio servidor.</p>
+
+    <video width="500" poster="Imagens/sddefault.jpg" controls autoplay loop>
+        <source src="midia/meuVideo.mp4.mp4" type="video/mp4">
+        <source src="midia/meu-video.webm.webm" type="video/webm">
+
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos</p>
+    </video>
+
+    <h1>Videos</h1>
+
+    <video width="500" poster="https://media.sf-converter.com/get?__sig=-qKhcKBA8RiGi9YvoOzCBA&__expires=1772835540&uri=https%3A%2F%2Fi.ytimg.com%2Fvi%2F4spsHI0sglg%2Fhqdefault.jpg&referer=https%3A%2F%2Fwww.youtube.com%2F" controls>
+        <source src="midia/Rap do Trunks (Dragon Ball Z) _ Tauz RapTributo 14.mp4" type="video/mp4">    </video>
+
+    <h1>Inserindo Video do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4spsHI0sglg?si=h0HRzFB9At4EavTF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h1>Inserindo video do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/170343452?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Rap do Madara (Naruto) _ Tauz RapTributo 11"></iframe>
+</body>
+</html>
